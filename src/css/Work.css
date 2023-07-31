@@ -626,7 +626,7 @@ body {
 }
 
 .get-free-con {
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 15px;
     background: #FFF;
     transition: 0.5s;
@@ -636,13 +636,12 @@ body {
 .get-free-con p{
     background-color: #ffffff;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 600;
     line-height: 26px;
     transition: 0.5s;
-    padding-top: 20px;
-    
+    padding-top: 15px;
 }
 
 .get-free-con:hover {
