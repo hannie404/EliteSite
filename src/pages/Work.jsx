@@ -1,5 +1,14 @@
-import React from 'react'
-import './Work.css';
+import React from 'react';
+import '../css/Work.css';
+import mobile from '../images/png/mobile.png';
+import whiteLogo from '../images/png/imageremovebgpreview-1-4@2x.png';
+import phoneLogo from '../images/png/frame-photo@2x.png';
+import marketing from '../images/png/marketing.png';
+import easy from '../images/svg/easy-icon.svg';
+import heart from '../images/svg/heart-icon.svg';
+import share from '../images/svg/share-icon.svg';
+import increase from '../images/svg/increase-icon.svg';
+
 
 function Work() {
   return (
@@ -26,7 +35,7 @@ function Work() {
                 <div className='container-first-section'>
                     {/* First Box */}
                     <div className='box-con-first'>
-                        <img src="mobile.png" alt=""/>
+                        <img src={mobile} alt=""/>
                         <div className='mobile-development-is'>
                             <p>
                                 Mobile development is a crucial service for any IT company. 
@@ -69,7 +78,7 @@ function Work() {
                         <div className='search-continer'>
                             <h6>SEARCH</h6>
                             <div className='container-input'>
-                                <input type="text" placeholder="Search.." name="search" className='btn'/>
+                                <input type="text" placeholder="Search.." name="search" className='form-control'/>
                             </div>
                         </div>
                         {/* Services */}
@@ -103,7 +112,7 @@ function Work() {
                                     9 Castlereagh Street, Sydney, NSW 2000, 
                                 </span>
                                 <div className='logo-continer'>
-                                    <img src="imageremovebgpreview-1-4@2x.png" alt="" />
+                                    <img src={whiteLogo} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -115,7 +124,7 @@ function Work() {
                 <div className='second-container'>
                     <div className='second-container-box'>
                         <div className='easy-personel'>
-                            <img src="easy-icon.svg" alt="" />
+                            <img src={easy} alt="" />
                             <h6>Easy Access</h6>
                             <p>
                                 Mobile development services for business
@@ -124,7 +133,7 @@ function Work() {
                             </p>
                         </div>
                         <div className='easy-personel'>
-                        <img src="heart-icon.svg" alt="" />
+                        <img src={heart} alt="" />
                             <h6>Personal Experience</h6>
                             <p>
                                 Our team builds custom mobile apps for 
@@ -134,25 +143,25 @@ function Work() {
                         </div>
                     </div>
                     <div className='second-container-phone'>
-                        <img src="frame-photo@2x.png" alt="" />
+                        <img src={phoneLogo} alt="" />
                     </div>
                     <div className='second-container-box'>
                         <div className='easy-personel'>
-                            <img src="easy-icon.svg" alt="" />
-                            <h6>Easy Access</h6>
+                            <img src={share} alt="" />
+                            <h6>High Engagement</h6>
                             <p>
-                                Mobile development services for business
-                                to provide convenient access to their
-                                products and services.
+                                Our mobile development services 
+                                enhance user engagement and
+                                retention for apps usage.
                             </p>
                         </div>
                         <div className='easy-personel'>
-                        <img src="heart-icon.svg" alt="" />
-                            <h6>Personal Experience</h6>
+                        <img src={increase} alt="" />
+                            <h6>Increase Efficiency</h6>
                             <p>
-                                Our team builds custom mobile apps for 
-                                personalized user experiences that
-                                match with your business goals.
+                                Our mobile development solutions 
+                                increase efficiency by automating 
+                                processes and streamlining operations.
                             </p>
                         </div>
                     </div>
@@ -164,7 +173,7 @@ function Work() {
                     <h1>Digital Marketing</h1>
                 </div>
                 <div className='third-section-img'>
-                    <img src="marketing.png" alt="" />
+                    <img src={marketing} alt="" />
                 </div>
                 <div className='flex-third-tiny'>
                     <div className='flex-tiny-text'>

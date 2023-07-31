@@ -384,6 +384,7 @@ body {
     width: 100%;
     border-radius: 1.25rem;
     transition: 0.5s;
+    margin-bottom: 20px;
 }
 
 .third-section-img img:hover  {
@@ -640,6 +641,7 @@ body {
     font-weight: 600;
     line-height: 26px;
     transition: 0.5s;
+    padding-top: 20px;
     
 }
 

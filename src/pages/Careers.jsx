@@ -1,5 +1,14 @@
-import React from 'react'
-import './Careers.css';
+import React from 'react';
+import '../css/Careers.css';
+import office from '../images/png/loqxrqhu2ptc-1@2x.png';
+import face from '../images/png/image-placeholder@2x.png';
+import whitelogo from '../images/png/imageremovebgpreview-1-4@2x.png';
+import exp from '../images/png/experiment@2x.png';
+import tea from '../images/png/tea@2x.png';
+import gms from '../images/png/game@2x.png';
+import fds from '../images/png/foods@2x.png';
+import loc from '../images/png/location@2x.png';
+import gcq from '../images/png/gcquuv9gwdeg-1@2x.png';
 
 function Careers() {
   return (
@@ -21,10 +30,10 @@ function Careers() {
             <section className='first-section'>
                 <div className='container-first-section'>
                     <div className='box-con-first'>
-                        <img src="loqxrqhu2ptc-1@2x.png" alt="" />
+                        <img src={office} alt="" />
                         <div className='box-con-author'>
                             <div className='box-author'>
-                                <img src="image-placeholder@2x.png" alt=""/>
+                                <img src={face} alt=""/>
                                 <p>Nathan Atkinson</p>
                                 <span>July 10, 2023</span>
                             </div>
@@ -111,7 +120,7 @@ function Careers() {
                                     9 Castlereagh Street, Sydney, NSW 2000, 
                                 </span>
                                 <div className='logo-continer'>
-                                    <img src="imageremovebgpreview-1-4@2x.png" alt="" />
+                                    <img src={whitelogo} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -165,7 +174,7 @@ function Careers() {
                     <div className='why-card'>
 
                         <div className='why-box'>
-                            <img src="experiment@2x.png" alt=""/>
+                            <img src={exp} alt=""/>
                             <p>
                                 Room to develop yourself 
                                 through training, certification or 
@@ -174,7 +183,7 @@ function Careers() {
                         </div>
                         
                         <div className='why-box'>
-                            <img src="tea@2x.png" alt=""/>
+                            <img src={tea} alt=""/>
                             <p>
                                 An agenda full of Triple events: 
                                 from sports tournaments to LAN 
@@ -183,7 +192,7 @@ function Careers() {
                         </div>
 
                         <div className='why-box'>
-                            <img src="game@2x.png" alt=""/>
+                            <img src={gms} alt=""/>
                             <p>
                                 An office full of gadgets, game 
                                 consoles and a home cinema. 
@@ -192,7 +201,7 @@ function Careers() {
                         </div>
 
                         <div className='why-box'>
-                            <img src="foods@2x.png" alt=""/>
+                            <img src={fds} alt=""/>
                             <p>
                                 Do you work in the office? Enjoy a 
                                 delicious breakfast and lunch made 
@@ -201,7 +210,7 @@ function Careers() {
                         </div>
 
                         <div className='why-box'>
-                            <img src="location@2x.png" alt=""/>
+                            <img src={loc} alt=""/>
                             <p>
                                 Hybrid working: work where you are 
                                 most productive, whether that's at 
@@ -210,7 +219,7 @@ function Careers() {
                         </div>
 
                         <div className='why-box'>
-                            <img src="gcquuv9gwdeg-1@2x.png" alt=""/>
+                            <img src={gcq} alt=""/>
                             <p>
                                 Work on challenging and fun projects 
                                 for our customers or on Triple 
