@@ -9,10 +9,13 @@ import gms from '../images/png/game@2x.png';
 import fds from '../images/png/foods@2x.png';
 import loc from '../images/png/location@2x.png';
 import gcq from '../images/png/gcquuv9gwdeg-1@2x.png';
+import Header from '../components/Header';
+import Footer from '../components/Footer'
 
 function Careers() {
   return (
     <div className='careers-page'>
+      <Header />
         <header>
             <div className='header-container'>
                 <div className='tiny-container'>
@@ -313,6 +316,7 @@ function Careers() {
                 </div>
             </div>
         </main>
+      <Footer />
     </div>
   )
 }

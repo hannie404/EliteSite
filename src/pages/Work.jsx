@@ -8,12 +8,14 @@ import easy from '../images/svg/easy-icon.svg';
 import heart from '../images/svg/heart-icon.svg';
 import share from '../images/svg/share-icon.svg';
 import increase from '../images/svg/increase-icon.svg';
+import Header from '../components/Header';
+import Footer from '../components/Footer'
 
 
 function Work() {
   return (
     <div className='work-page'>
-        
+       <Header />
         {/* Header */}
         <header>
             <div className='header-container'>
@@ -297,7 +299,7 @@ function Work() {
                 </div>
             </section>
         </main>
-      
+      <Footer />
     </div>
   )
 }
