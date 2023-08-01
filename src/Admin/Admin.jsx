@@ -1,8 +1,11 @@
 import React from 'react'
+import SideBar from './SideBar'
 
 function Admin() {
   return (
-    <div>Admin</div>
+    <div style={{background: '#11112B'}} className='vh-100'>
+      <SideBar />
+    </div>
   )
 }
 
