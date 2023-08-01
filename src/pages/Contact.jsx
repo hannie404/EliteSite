@@ -1,11 +1,13 @@
 import React from 'react';
-
+import Header from '../components/Header';
+import Footer from '../components/Footer'
 import logo1 from '../images/png/logo-dark.png';
 import wavy from '../images/svg/wavy.svg';
 
 function Contact() {
   return (
     <>
+    <Header />
       <div class="section-contact">
             <div class="container">
                 <div class="contact-heading">
@@ -172,7 +174,8 @@ function Contact() {
                 </div>
             </div>
         </div>
-      </>
+      <Footer />
+    </>
   )
 }
 

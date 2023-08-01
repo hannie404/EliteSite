@@ -1,10 +1,11 @@
 import './App.css';
-import Contact from '../src/pages/Contact';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import HomeRoutes from './pages/HomeRoutes';
 
 function App() {
   return (
     <>
-      <Contact/>
+      <HomeRoutes />
     </>
   );
 }
