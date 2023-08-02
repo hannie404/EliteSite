@@ -36,6 +36,7 @@ function ServicePrice() {
             <List className='text-light'>Mobile Development</List>
             <hr />
             <List className='text-light'>For small-sized business</List>
+
             <OrderButton type='button' className='btn text-light p-4 mt-4' onClick={handleOrderNow}>
               Order Now
             </OrderButton>
