@@ -33,43 +33,34 @@ const Footer = () => {
         <Row className="footer-top-wrapper justify-content-between" style={{ gap: '48px', padding: '16px', minHeight: '160px' }}>
           <Col xs={12} sm={6} md={3}>
             <menu style={{ textAlign: 'left', lineHeight: 2 }}>
-              <h2>Atheros Learning</h2>
+              <h2>About us</h2>
               <li>
-                <a>For Students</a>
-              </li>
-              <li>
-                <a>For Lectors</a>
-              </li>
-              <li>
-                <a>Sign-Up/Log-In</a>
+              We offer tailored solutions, exceptional service, and cutting-edge technology to empower your business's success. Discover the Elite difference today!
               </li>
             </menu>
           </Col>
           <Col xs={12} sm={6} md={3}>
             <menu style={{ textAlign: 'left', lineHeight: 2  }}>
-              <h2>Atheros Cloud</h2>
+              <h2>Services</h2>
               <li>
-                <a>Private Data Detector</a>
+                <a>Web Development</a>
               </li>
               <li>
-                <a>Text Classification</a>
+                <a>Mobile Development</a>
               </li>
               <li>
-                <a>Duplicates Detector</a>
+                <a>Cyber Security</a>
               </li>
             </menu>
           </Col>
           <Col xs={12} sm={6} md={3}>
             <menu style={{ textAlign: 'left', lineHeight: 2  }}>
-              <h2>Company</h2>
+              <h2>Contact</h2>
               <li>
-                <a>Blog</a>
+                <a>info@elitesite.com.au</a>
               </li>
               <li>
-                <a>About Us</a>
-              </li>
-              <li>
-                <a>Contact</a>
+                <a>+63 9234 323 4244</a>
               </li>
             </menu>
           </Col>
