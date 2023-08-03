@@ -52,7 +52,7 @@ const services = [
 ];
 
 const ServiceContainer = styled.div`
-  padding: 5%;
+  padding: 10%;
 `;
 
 const Text = styled.h1`

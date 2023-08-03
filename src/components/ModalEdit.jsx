@@ -30,14 +30,16 @@ const ModalEdit = ({ user, onSave, onCancel }) => {
     <MDBModal isOpen={true} toggle={onCancel}>
       <MDBModalHeader toggle={onCancel}>Edit User</MDBModalHeader>
       <MDBModalBody>
+        Username
         <MDBInput
-          label="Username"
+          // label="Username"
           name="username"
           value={editedUser.username}
           onChange={handleInputChange}
         />
+        Password
         <MDBInput
-          label="Password"
+          // label="Password"
           name="password"
           type="text"
           value={editedUser.password}

@@ -3,6 +3,8 @@ import { MDBDataTable } from 'mdbreact';
 import styled from 'styled-components';
 import Swal from 'sweetalert2';
 import ModalEdit from '../../components/ModalEdit';
+import penFill from 'react-bootstrap-icons';
+
 
 const EditButton = styled.button`
   background-color: #f0ad4e; /* Warning color */
@@ -33,6 +35,12 @@ const Table = () => {
   const data = {
     columns: [
       {
+        label: 'Date',
+        field: 'id',
+        sort: 'asc',
+        width: 150,
+      },
+      {
         label: 'Username',
         field: 'username',
         sort: 'asc',
@@ -53,12 +61,13 @@ const Table = () => {
       },
     ],
     rows: usersData.map((user) => ({
+      id: user.id,
       username: user.username,
       password: user.password,
       email: user.email,
       action: (
         <>
-          <EditButton onClick={() => handleEdit(user)}>Edit</EditButton>
+          <EditButton onClick={() => handleEdit(user)}><penFill />Edit</EditButton>
           <DeleteButton onClick={() => handleDelete(user)}>Delete</DeleteButton>
         </>
       ),
@@ -77,7 +86,8 @@ const Table = () => {
       cancelButtonColor: '#4caf50',
     }).then((result) => {
       if (result.isConfirmed) {
-        const updatedUsers = usersData.filter((u) => u.id !== user.id);
+        // const updatedUsers = usersData.filter((u) => u.id !== user.id);
+        const updatedUsers = usersData
         localStorage.setItem('listOfUsers', JSON.stringify(updatedUsers));
         setUsersData(updatedUsers);
       }
@@ -95,7 +105,7 @@ const Table = () => {
 
   return (
     <>
-      <MDBDataTable striped bordered small data={data} />
+      <MDBDataTable striped bordered small data={data} className='bg-grey p-4 rounded-3' />
 
       {isModalOpen && (
         <ModalEdit
